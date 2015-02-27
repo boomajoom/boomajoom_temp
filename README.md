@@ -1,0 +1,1 @@
+This is just a placeholder site. Django may have been too heavy, but the server was already set up for it.

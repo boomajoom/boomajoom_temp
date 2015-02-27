@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static from staticfiles %}
+
+{% block content %}
+
+<h1>Privacy Policy</h1>
+<h3>In a form that doesn't suck.</h3>
+
+<p><img src="{% static "/static/img/data-use.png" %}"/></p>
+<p>An email address collected as a result of signing up with Boomajoom.com (known as "the site" or "the service")
+    or contacting the site will be used to help in your use of the site and communication relating to your inquiry.
+It doesn't mean that the site will use that email address to try to sell you something.</p>
+
+    <p><img src="{% static "/static/img/data-selling.png" %}"/></p>
+    <p>Self explanatory.</p>
+
+    <p><img src="{% static "/static/img/data-ads.png" %}"/></p>
+    <p>The only potential caveat to this is if you contact an advertiser or partner of Boomajoom using a web property
+    or advertisement published by Boomajoom. In this case, information you submit will be transmitted to the advertiser.
+    If you dial a telephone call forwarding number provided by Boomajoom from a landline, your caller ID information may
+    be transmitted to the advertiser.</p>
+
+    <p><img src="{% static "/static/img/data-retention.png" %}"/></p>
+    <p>Full data destruction online is nearly impossible. Depending on your selected provider and the provider
+    you are contacting, emails may be recovered years after they are deleted. However, the site itself does not
+    save anything you send to us for longer than a month (unless you are a paying customer and these records are
+    relevant to your account. The only potential exception is with the use of some kind of digital forensics program,
+    which brings us to the last point...</p>
+
+    <p><img src="{% static "/static/img/data-law.png" %}"/></p>
+    <p>This site is based in California, and thus must follow the legal procedures of that state as well as
+    the United States. Legal warrants signed by a judge must be presented before any information from the site
+    is provided to law enforcement.</p>
+
+{% endblock %}
