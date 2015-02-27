@@ -19,6 +19,8 @@ MEDIA_ROOT = (
 
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '../templates').replace('\\', '/'),)
 
+STATIC_ROOT = os.path.join(os.path.dirname(__file__), '../assets/')
+
 # ==========
 # = Global =
 # ==========
