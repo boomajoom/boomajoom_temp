@@ -138,3 +138,4 @@ try:
     from boomajoom_temp.local_settings import *
 except ImportError:
        pass
+
